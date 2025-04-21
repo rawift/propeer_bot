@@ -31,9 +31,9 @@ if len(sys.argv) > 3:
     meeting_link = sys.argv[1]
     session_endTime = sys.argv[2]
     mentorName = sys.argv[3]
-    print(f"🔗 Joining meeting: {meeting_link}")
+    print(f"Joining meeting: {meeting_link}")
 else:
-    print("❌ No meeting link provided!")
+    print("No meeting link provided!")
     sys.exit(1)
 
 print("Session End Time -------->",datetime.strptime(session_endTime, '%Y-%m-%dT%H:%M:%SZ'))
@@ -378,7 +378,7 @@ while True:
     logger.info(f"Session end time -------> {session_endTime_formatted}")
 
     if current_time_formatted >= session_endTime_formatted:
-        print("✅ Meeting time ended! Closing the session.")
+        print("Meeting time ended! Closing the session.")
         break
 
     # Wait for 1 second before checking again
