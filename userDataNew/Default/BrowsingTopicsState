@@ -1,0 +1,71 @@
+{
+   "epochs": [ {
+      "calculation_time": "13387992288798013",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 352
+      }, {
+         "hashed_domains": [  ],
+         "topic": 65
+      }, {
+         "hashed_domains": [  ],
+         "topic": 47
+      }, {
+         "hashed_domains": [  ],
+         "topic": 523
+      }, {
+         "hashed_domains": [  ],
+         "topic": 607
+      } ]
+   }, {
+      "calculation_time": "13388762509758751",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 233
+      }, {
+         "hashed_domains": [  ],
+         "topic": 31
+      }, {
+         "hashed_domains": [  ],
+         "topic": 29
+      }, {
+         "hashed_domains": [  ],
+         "topic": 258
+      }, {
+         "hashed_domains": [  ],
+         "topic": 382
+      } ]
+   }, {
+      "calculation_time": "13389378485519441",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 623
+      }, {
+         "hashed_domains": [  ],
+         "topic": 405
+      }, {
+         "hashed_domains": [  ],
+         "topic": 353
+      }, {
+         "hashed_domains": [  ],
+         "topic": 535
+      }, {
+         "hashed_domains": [  ],
+         "topic": 515
+      } ]
+   } ],
+   "hex_encoded_hmac_key": "7E910CA59ADD467DD388FBA4BCB64D3E57CB934E86581D7282AC22811C74040A",
+   "next_scheduled_calculation_time": "13389983285946517"
+}

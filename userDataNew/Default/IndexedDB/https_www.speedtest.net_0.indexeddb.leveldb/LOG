@@ -1,0 +1,29 @@
+2025/02/12-16:31:10.349 1df0 Creating DB C:\Users\propeers\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.speedtest.net_0.indexeddb.leveldb since it was missing.
+2025/02/12-16:31:10.361 1df0 Reusing MANIFEST C:\Users\propeers\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.speedtest.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/12-16:31:10.423 f8c Level-0 table #5: started
+2025/02/12-16:31:10.428 f8c Level-0 table #5: 1335 bytes OK
+2025/02/12-16:31:10.435 f8c Delete type=0 #3
+2025/02/12-16:31:10.435 1df0 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/12-16:31:10.458 f8c Level-0 table #7: started
+2025/02/12-16:31:10.462 f8c Level-0 table #7: 2237 bytes OK
+2025/02/12-16:31:10.481 f8c Delete type=0 #4
+2025/02/12-16:31:10.481 1830 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/12-16:31:10.481 1830 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 179 : 1
+2025/02/12-16:31:10.482 1830 Compacting 1@1 + 1@2 files
+2025/02/12-16:31:10.486 1830 Generated table #8@1: 35 keys, 801 bytes
+2025/02/12-16:31:10.486 1830 Compacted 1@1 + 1@2 files => 801 bytes
+2025/02/12-16:31:10.490 1830 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/12-16:31:10.491 1830 Delete type=2 #7
+2025/02/12-16:31:10.491 1830 Manual compaction at level-1 from '\x00\x05\x00\x00\x05' @ 179 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/12-16:31:10.492 1830 Level-0 table #10: started
+2025/02/12-16:31:10.499 1830 Level-0 table #10: 5408 bytes OK
+2025/02/12-16:31:10.516 1830 Delete type=2 #5
+2025/02/12-16:31:10.516 1830 Delete type=0 #6
+2025/02/12-16:31:10.517 1830 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/12-16:31:10.517 1830 Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 251 : 1
+2025/02/12-16:31:10.517 1830 Compacting 1@1 + 1@2 files
+2025/02/12-16:31:10.522 1830 Generated table #11@1: 34 keys, 1077 bytes
+2025/02/12-16:31:10.522 1830 Compacted 1@1 + 1@2 files => 1077 bytes
+2025/02/12-16:31:10.527 1830 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/12-16:31:10.528 1830 Delete type=2 #10
+2025/02/12-16:31:10.528 1830 Manual compaction at level-1 from '\x00\x05\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 251 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -55,7 +55,11 @@ class ProPeersGoogleMeetBoat:
         options.add_argument("--use-fake-ui-for-media-stream")
         options.add_argument("--disable-infobars")
         options.add_argument("--disable-notifications")
-        # options.add_argument("user-data-dir=C:/Users/propeers/AppData/Local/Google/Chrome/User Data")  # Path to your Chrome user data directory
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        user_data_dir = os.path.join(script_dir, "userDataNew")
+        # options.add_argument("user-data-dir=C:/Users/propeers/AppData/Local/Google/Chrome/User Data")
+        # options.add_argument("user-data-dir=C:/Users/propeers/propeer_bot/userDataNew")
+        options.add_argument(f"user-data-dir={user_data_dir}")
         self.driver = webdriver.Chrome(options=options)
         self.actions = ActionChains(self.driver)
         self.wait = WebDriverWait(self.driver, 5)
@@ -362,7 +366,7 @@ if __name__ == "__main__":
     bot = ProPeersGoogleMeetBoat(email, password, meeting_url)
     bot.setup_driver()
     try:
-        bot.login()
+        # bot.login()
         time.sleep(1)
         bot.join_meeting()
         main(bot,host_name)
