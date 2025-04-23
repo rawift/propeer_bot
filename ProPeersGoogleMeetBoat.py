@@ -41,7 +41,7 @@ session_endTime = datetime.strptime(session_endTime, '%Y-%m-%dT%H:%M:%SZ')
 session_endTime = pytz.utc.localize(session_endTime)
 
 class ProPeersGoogleMeetBoat:
-    def _init_(self, email, password, meet_link):
+    def __init__(self, email, password, meet_link):
         self.email = email
         self.password = password
         self.meet_link = meet_link
@@ -55,7 +55,7 @@ class ProPeersGoogleMeetBoat:
         options.add_argument("--use-fake-ui-for-media-stream")
         options.add_argument("--disable-infobars")
         options.add_argument("--disable-notifications")
-        options.add_argument("user-data-dir=C:/Users/propeers/AppData/Local/Google/Chrome/User Data")  # Path to your Chrome user data directory
+        # options.add_argument("user-data-dir=C:/Users/propeers/AppData/Local/Google/Chrome/User Data")  # Path to your Chrome user data directory
         self.driver = webdriver.Chrome(options=options)
         self.actions = ActionChains(self.driver)
         self.wait = WebDriverWait(self.driver, 5)
@@ -350,17 +350,19 @@ def main(bot,host_name):
 #         logger.info("Browser will remain open. You can manually close it.")
 #         time.sleep(10000)  
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     email = os.getenv("email")
     password = os.getenv("password")
     meeting_url = meeting_link
+    print("herrrrreee")
     # meeting_url = "https://meet.google.com/jjm-jwnk-fie"
     # host_name = "Prince Singh"
     host_name = mentorName
+    print(email, password, meeting_url)
     bot = ProPeersGoogleMeetBoat(email, password, meeting_url)
     bot.setup_driver()
     try:
-        #bot.login()
+        bot.login()
         time.sleep(1)
         bot.join_meeting()
         main(bot,host_name)

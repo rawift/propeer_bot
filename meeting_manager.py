@@ -44,7 +44,7 @@ def _run_meeting_bot_process(meeting_link, end_time, mentor_name):
         bot = ProPeersGoogleMeetBoat(email, password, meeting_link)
         bot.setup_driver()
         
-        # bot.login()  
+        bot.login()  
         time.sleep(1)
         bot.join_meeting()
         
@@ -83,6 +83,7 @@ class MeetingManager:
     def start_meeting(self, meeting_link, end_time, mentor_name):
         """Start a new meeting in a separate process"""
         # Create process using standalone function
+        print("in meet manager")
         process = multiprocessing.Process(
             target=_run_meeting_bot_process,
             args=(meeting_link, end_time, mentor_name)
